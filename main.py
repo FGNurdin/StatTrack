@@ -1,13 +1,12 @@
 import os
 import json
+import shutil
 try:
     import requests
-    import shutil
     from bs4 import BeautifulSoup
 except:
     os.system('pip install -q requests')
     os.system('pip install -q bs4')
-    os.system('pip install -q shutil')
 
 
 def Banner():
